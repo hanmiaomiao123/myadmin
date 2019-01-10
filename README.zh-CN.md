@@ -1,3 +1,26 @@
+### 下载安装.
+```
+1.根据package.json 里的配置确认好自己的环境, 比如 node version ,npm version ...
+2.如果根据官网文档 npm install ---》 npm start  页面查看报错.
+    建议安装cnpm
+    npm install -g cnpm --registry=http://registry.npm.taobao.org
+    cnpm install 
+    cnpm start
+3.或者设置npm 的镜像源.
+```
+
+#### 备注:
+```
+编译器记得先删除缓存.
+npm cache clear --force
+rm -rf ./node_modules
+然后
+cnpm install
+cnpm start
+```
+
+
+
 [English](./README.md) | 简体中文 | [Русский](./README.ru-RU.md)
 
 <h1 align="center">Ant Design Pro</h1>
